@@ -36,8 +36,7 @@ for file in $files; do
 done
 
 # Install Vundle
-
-if [ -d "~/.vim/bundle/Vundle.vim" ]; then
+if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
   echo "Installing Vundle"
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
@@ -46,7 +45,7 @@ fi
 vim +PluginInstall +qall
 
 # Ensure Solarized vim color is present
-if [ -f "~/.vim/colors/solarized.vim" ]; then
+if [ ! -f ~/.vim/colors/solarized.vim ]; then
   echo "Installing Solarized theme"
   cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 fi
