@@ -60,10 +60,6 @@ let g:pymode_lint_message = 0
 let g:pymode_indent = 1
 let g:pymode_lint_options_mccabe = { 'complexity': 7 }
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-
 " Syntax highlighting
 :syntax on
 
@@ -73,3 +69,10 @@ filetype plugin indent on    " required
 " tab width to 2
 set shiftwidth=2
 set softtabstop=2
+
+" Use system clipboard
+set clipboard=unnamed
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
