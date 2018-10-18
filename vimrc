@@ -49,6 +49,7 @@ let g:vim_json_syntax_conceal = 0
 
 " Python Mode
 Bundle 'python-mode/python-mode'
+let g:pymode_python = 'python'
 let g:pymode_options = 1
 let g:pymode_folding = 0
 let g:pymode_trim_whitespaces = 1
