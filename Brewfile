@@ -4,6 +4,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/cask' 
 tap 'caskroom/homebrew-cask' || true
 brew 'bash-git-prompt'
+brew 'pyenv'
 brew 'pipenv'
 brew 'vim'
 brew 'tmux'
