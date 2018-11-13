@@ -43,9 +43,3 @@ fi
 
 # Install Vim plugins
 vim +PluginInstall +qall
-
-# Ensure Solarized vim color is present
-if [ ! -f ~/.vim/colors/solarized.vim ]; then
-  echo "Installing Solarized theme"
-  cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
-fi

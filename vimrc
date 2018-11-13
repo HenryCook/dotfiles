@@ -29,7 +29,6 @@ let g:airline_powerline_fonts = 1
 " Vim solaraized
 Bundle 'altercation/vim-colors-solarized'
 set background=dark
-colorscheme solarized
 
 " Ctrl P
 Bundle 'ctrlpvim/ctrlp.vim'
@@ -77,3 +76,5 @@ set clipboard=unnamed
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+colorscheme solarized
