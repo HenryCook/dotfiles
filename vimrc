@@ -46,19 +46,24 @@ Bundle 'elzr/vim-json'
 " disable concealing
 let g:vim_json_syntax_conceal = 0
 
+" Table Mode
+Plugin 'dhruvasagar/vim-table-mode'
+
 " Python Mode
 Bundle 'python-mode/python-mode'
-let g:pymode_python = 'python'
 let g:pymode_options = 1
 let g:pymode_folding = 0
 let g:pymode_trim_whitespaces = 1
-let g:pymode_options_max_line_length = 79
+let g:pymode_options_max_line_length = 120
 let g:pymode_doc = 0
 let g:pymode_lint_on_write = 1
 let g:pymode_lint_on_fly = 0
 let g:pymode_lint_message = 0
 let g:pymode_indent = 1
 let g:pymode_lint_options_mccabe = { 'complexity': 7 }
+
+" Fix backspace not working
+:set backspace=indent,eol,start
 
 " Syntax highlighting
 :syntax on
