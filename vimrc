@@ -49,6 +49,13 @@ let g:vim_json_syntax_conceal = 0
 " Table Mode
 Plugin 'dhruvasagar/vim-table-mode'
 
+" Markdown Preview
+Plugin 'jamshedvesuna/vim-markdown-preview'
+let vim_markdown_preview_hotkey='<C-m>'
+let vim_markdown_preview_browser='Google Chrome'
+let vim_markdown_preview_temp_file=1
+let vim_markdown_preview_github=1
+
 " Python Mode
 Bundle 'python-mode/python-mode'
 let g:pymode_options = 1
