@@ -21,7 +21,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 Plugin 'airblade/vim-gitgutter'
 
 " Vim Airline 
-Bundle 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 set laststatus=2
 let g:airline_powerline_fonts = 1
