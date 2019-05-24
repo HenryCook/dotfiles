@@ -56,6 +56,9 @@ let vim_markdown_preview_browser='Google Chrome'
 let vim_markdown_preview_temp_file=1
 let vim_markdown_preview_github=1
 
+" Table of Contents
+Plugin 'mzlogin/vim-markdown-toc'
+
 " Python Mode
 Bundle 'python-mode/python-mode'
 let g:pymode_options = 1
