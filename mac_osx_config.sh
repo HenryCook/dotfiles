@@ -14,3 +14,9 @@ sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Automatically hide and show the Dock
 sudo defaults write com.apple.dock autohide -bool true
+
+if [ ! -f ~/.git-completion.bash ]; then
+    echo "Downloading git-completion"
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+    echo "...done"
+fi
