@@ -72,6 +72,9 @@ let g:pymode_lint_message = 0
 let g:pymode_indent = 1
 let g:pymode_lint_options_mccabe = { 'complexity': 7 }
 
+" Auto Pairs
+Plugin 'jiangmiao/auto-pairs'
+
 " Fix backspace not working
 :set backspace=indent,eol,start
 
