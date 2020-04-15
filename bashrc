@@ -11,3 +11,5 @@ export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d"
 source <(kubectl completion bash)
 
 source ~/.git-completion.bash
+
+eval "$(pyenv init -)"

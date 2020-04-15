@@ -71,6 +71,11 @@ let g:pymode_lint_on_fly = 0
 let g:pymode_lint_message = 0
 let g:pymode_indent = 1
 let g:pymode_lint_options_mccabe = { 'complexity': 7 }
+" turn on rope
+let g:pymode_rope = 1
+" turn on completion?
+let g:pymode_rope_completion = 1
+let g:pymode_rope_completion_bind = '<C-Space>'
 
 " Fix backspace not working
 :set backspace=indent,eol,start
@@ -87,6 +92,9 @@ set softtabstop=2
 
 " Use system clipboard
 set clipboard=unnamed
+
+" Format yaml properly
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
