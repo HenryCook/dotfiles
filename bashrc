@@ -13,3 +13,8 @@ source <(kubectl completion bash)
 source ~/.git-completion.bash
 
 eval "$(pyenv init -)"
+
+eval "$(starship init bash)"
+
+alias k=kubectl
+complete -F __start_kubectl k

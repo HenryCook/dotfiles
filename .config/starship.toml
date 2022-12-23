@@ -1,0 +1,10 @@
+[kubernetes]
+disabled = false
+style = "green"
+
+[git_metrics]
+disabled = false
+
+[time]
+disabled = false
+format = "[$time]($style) "
