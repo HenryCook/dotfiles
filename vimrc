@@ -35,47 +35,8 @@ Bundle 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-" Dockerfile
-Bundle 'ekalinin/Dockerfile.vim'
-
-" Terraform
-Bundle 'hashivim/vim-terraform'
-
-" Json
-Bundle 'elzr/vim-json'
-" disable concealing
-let g:vim_json_syntax_conceal = 0
-
-" Table Mode
-Plugin 'dhruvasagar/vim-table-mode'
-
-" Markdown Preview
-Plugin 'jamshedvesuna/vim-markdown-preview'
-let vim_markdown_preview_hotkey='<C-m>'
-let vim_markdown_preview_browser='Google Chrome'
-let vim_markdown_preview_temp_file=1
-let vim_markdown_preview_github=1
-
-" Table of Contents
-Plugin 'mzlogin/vim-markdown-toc'
-
-" Python Mode
-Bundle 'python-mode/python-mode'
-let g:pymode_options = 1
-let g:pymode_folding = 0
-let g:pymode_trim_whitespaces = 1
-let g:pymode_options_max_line_length = 120
-let g:pymode_doc = 0
-let g:pymode_lint_on_write = 1
-let g:pymode_lint_on_fly = 0
-let g:pymode_lint_message = 0
-let g:pymode_indent = 1
-let g:pymode_lint_options_mccabe = { 'complexity': 7 }
-" turn on rope
-let g:pymode_rope = 1
-" turn on completion?
-let g:pymode_rope_completion = 1
-let g:pymode_rope_completion_bind = '<C-Space>'
+" ALE
+Plug 'dense-analysis/ale'
 
 " Fix backspace not working
 :set backspace=indent,eol,start
